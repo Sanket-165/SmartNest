@@ -28,7 +28,7 @@ exports.getHotelRecommendations= async(allHotels,budget,preferences) =>{
             You are an expert hotel recommendation assistant.
             A user is looking for a hotel with the following preferences:
             - Required amenities: ${preferences.join(", ")}
-            -Minimum Budget : ${Math.floor(budget * 0.8)}
+            -Minimum Budget : ${Math.floor(budget * 0.4)}
             - Maximum Budget : ${Math.floor(budget * 1.2)}
          
 

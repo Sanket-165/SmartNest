@@ -4,7 +4,7 @@ import HotelCard from './HotelCard';
 const ResultsDisplay = ({ results, isLoading, error, showIntro }) => {
     if (isLoading) return <LoadingSkeleton />;
     if (error) return <div className="text-center py-16 ...">{error}</div>;
-    if (showIntro) return <div className="text-center py-16 ...">Fill out the form</div>;
+    if (showIntro) return <div className="text-center py-16 ..."></div>;
     if (results.length === 0) return <div className="text-center py-16 ...">No Results</div>;
 
     return (
